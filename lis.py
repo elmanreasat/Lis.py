@@ -1,6 +1,6 @@
 from evaluate import *
 
-def repl(prompt='lisp.py> '):
+def repl(prompt='lis.py> '):
         while True:
             val = eval(parse(input(prompt)))
             if val is not None: 
